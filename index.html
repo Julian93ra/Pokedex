@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="field">
+            <div class="buttons are-small">
+            </div>
+            <div class="is-flex">
+                <input value="" class="input" id="filtro" type="text" placeholder="Escribe el nombre de tu Pokemon">
+                <button id="busqueda" class="button is-link ml-3" value="Buscar" onclick="filtroPokemon()">Buscar</button>
+            </div>
+
+        </div>
+        <div id="resultado" class="columns is-multiline">
+        </div>
+    </div>
+</body>
+</html>
